@@ -100,4 +100,5 @@ test
 <img title="Allure Overview Dashboard" src="sushkovb/aston-test/allure_overview_dashboard.png">
 </p>
 
+![Image alt](https://github.com/sushkovb/aston-test/raw/allure_overview_dashboard.png)
 
