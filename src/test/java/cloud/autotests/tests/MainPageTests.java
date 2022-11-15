@@ -27,4 +27,22 @@ public class MainPageTests extends TestBase {
         });
     }
 
+    @Test
+    @DisplayName("Заказ звонка")
+    void projectCost() {
+        step("Открыть сайт 'https://astondevs.ru'", () ->
+                open("https://astondevs.ru"));
+
+        step("Нажать 'Заказать звонок'", () -> {
+            $(".BurgerBtn-module--button--ADfTe").click();
+            $(".MobileMenu-module--buttonLine--odjvX").click();
+            $("[name=name]").setValue("Борис Сушков");
+            $("[name=phone]").setValue("79998887766");
+            $("[name=email]").setValue("some@mail.ru");
+            $("[name=nda]").parent().click();
+         //   $(".FormSubmit-module--buttonWrap--vUEXG").click();
+        });
+    }
+
+
 }
