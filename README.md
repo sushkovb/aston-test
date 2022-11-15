@@ -23,7 +23,7 @@
 
 ## :classical_building: Технологический стек
 
-<p align="center">
+<p>
   <img src="https://img.icons8.com/color/48/000000/intellij-idea.png" title="Intellij Idea" alt="Intellij Idea" width="40" height="40"/>&nbsp; 
   <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
   <img src="https://www.svgrepo.com/show/354051/maven.svg" title="Maven"  alt="Maven" width="40" height="40"/>&nbsp;
