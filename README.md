@@ -97,7 +97,7 @@ test
 ### :frog: Основной дашборд
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="aston-test/allure_overview_dashboard.png">
+<img title="Allure Overview Dashboard" src="sushkovb/aston-test/allure_overview_dashboard.png">
 </p>
 
 
