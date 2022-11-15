@@ -55,4 +55,49 @@
 ```
 gradle clean test
 ```
+### :robot: Удаленный запуск тестов 
+
+```
+clean
+test
+-Dbrowser=${BROWSER}
+-DbrowserVersion=${BROWSER_VERSION}
+-DbrowserSize=${BROWSER_SIZE}
+-DbrowserMobileView="${BROWSER_MOBILE}"
+-DremoteDriverUrl=https://user1:1234@${REMOTE_DRIVER_URL}/wd/hub/
+-DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
+-Dthreads=${THREADS}
+```
+
+### :robot: Параметры сборки
+
+> <code>REMOTE_DRIVER_URL</code> – адрес удаленного сервера, на котором будут запускаться тесты.
+>
+> <code>BROWSER</code> – браузер, в котором будут выполняться тесты (_по умолчанию - <code>chrome</code>_).
+>
+> <code>BROWSER_VERSION</code> – версия браузера, в которой будут выполняться тесты (_по умолчанию - <code>100.0</code>_).
+>
+> <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты (_по умолчанию - <code>800x800</code>_).
+
+
+
+### :skier: Главная страница Allure-отчета
+
+<p align="center">
+<img title="Allure Overview" src="images/screens/allure_overview.png">
+</p>
+
+### :eye_speech_bubble: Группировка тестов по проверяемому функционалу
+
+<p align="center">
+<img title="Allure Behaviors" src="images/screens/allure_behaviors.png">
+</p>
+
+
+### :frog: Основной дашборд
+
+<p align="center">
+<img title="Allure Overview Dashboard" src="images/screens/allure_overview_dashboard.png">
+</p>
+
 
