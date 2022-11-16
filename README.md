@@ -84,7 +84,7 @@ test
 ### :skier: Главная страница Allure-отчета
 
 <p align="center">
-<img title="Allure Overview" src=https://ibb.co/DDhgwbL>
+<a href="https://ibb.co/DDhgwbL"><img src="https://i.ibb.co/tMgPYh3/allure-overview.png" alt="allure-overview" border="0"></a>
 </p>
 
 ### :eye_speech_bubble: Группировка тестов по проверяемому функционалу
