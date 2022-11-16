@@ -90,7 +90,7 @@ test
 ### :eye_speech_bubble: Группировка тестов по проверяемому функционалу
 
 <p align="center">
-<img title="Allure Behaviors" src="images/screens/allure_behaviors.png">
+<img title="Allure Behaviors" src="/Users/borissuskov/IdeaProjects/aston-tests/src/test/java/images/screens/allure_behaviors.png">
 </p>
 
 
