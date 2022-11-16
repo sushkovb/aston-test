@@ -1,6 +1,6 @@
 # Проект по автоматизации тестирования сайта компании Aston
 
-## :cherry_blossom:	Содержание
+## Содержание
 
 > ➠ [Покрытый функционал](#earth_africa-покрытый-функционал)
 >
@@ -12,7 +12,7 @@
 >
 > ➠ [Отчет о результатах тестирования в Allure Report](#skier-главная-страница-allure-отчета)
 
-## :earth_africa: Покрытый функционал
+## Покрытый функционал
 
 > Разработаны автотесты на <code>UI</code>.
 ### UI
@@ -21,7 +21,7 @@
 - [x] Проверка возможности заказать звонок
 
 
-## :classical_building: Технологический стек
+## Технологический стек
 
 <p>
   <img src="https://img.icons8.com/color/48/000000/intellij-idea.png" title="Intellij Idea" alt="Intellij Idea" width="40" height="40"/>&nbsp; 
@@ -50,12 +50,12 @@
 
 ## Запуск тестов из терминала
 
-### :robot: Локальный запуск тестов
+### Локальный запуск тестов
 
 ```
 gradle clean test
 ```
-### :robot: Удаленный запуск тестов 
+### Удаленный запуск тестов 
 
 ```
 clean
@@ -69,7 +69,7 @@ test
 -Dthreads=${THREADS}
 ```
 
-### :robot: Параметры сборки
+### Параметры сборки
 
 > <code>REMOTE_DRIVER_URL</code> – адрес удаленного сервера, на котором будут запускаться тесты.
 >
@@ -81,24 +81,21 @@ test
 
 
 
-### :skier: Главная страница Allure-отчета
+### Главная страница Allure-отчета
 
 <p>
 <a href="https://ibb.co/DDhgwbL"><img src="https://i.ibb.co/tMgPYh3/allure-overview.png" alt="allure-overview" border="0"></a>
 </p>
 
-### :eye_speech_bubble: Группировка тестов по проверяемому функционалу
+### Группировка тестов по проверяемому функционалу
 
 <p>
 <a href="https://ibb.co/MM31cBh"><img src="https://i.ibb.co/TmF04WT/allure-behaviors.png" alt="allure-behaviors" border="0"></a>
 </p>
 
 
-### :frog: Основной дашборд
+### Основной дашборд
 
-<p align="center">
-<img title="Allure Overview Dashboard" src="sushkovb/aston-test/allure_overview_dashboard.png">
+<p>
+<a href="https://ibb.co/SJqPS76"><img src="https://i.ibb.co/WsS6CpH/allure-overview-dashboard.png" alt="allure-overview-dashboard" border="0"></a>
 </p>
-
-![Image alt](https://github.com/sushkovb/aston-test/raw/allure_overview_dashboard.png)
-
